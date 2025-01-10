@@ -1,9 +1,3 @@
--- ==============================================
--- Title: The Company Problem Solution
--- Platform: HackerRank
--- Link: https://www.hackerrank.com/challenges/the-company/problem?isFullScreen=true
--- ==============================================
-
 with company_heirarchy as 
 (
     select c.company_code, c.founder,
