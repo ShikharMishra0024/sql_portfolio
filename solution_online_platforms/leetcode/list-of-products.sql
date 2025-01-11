@@ -1,6 +1,6 @@
 -- =============================================
--- Title: The Company Problem Solution
--- Platform: HackerRank
+-- Title: List the Products Ordered in a Period
+-- Platform: leetcode
 -- Link: https://leetcode.com/problems/list-the-products-ordered-in-a-period
 -- =============================================
 
