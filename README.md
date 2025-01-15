@@ -36,7 +36,7 @@ This repository contains:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sql-portfolio.git
+   git clone https://github.com/ShikharMishra0024/sql_portfolio.git
    ```
 2. Navigate to the desired folder or file.
 3. Run the SQL scripts in your preferred database management tool.
