@@ -1,0 +1,18 @@
+-- =============================================
+-- Title: Draw The Triangle 2
+-- Platform: HackerRank
+-- Link: https://www.hackerrank.com/challenges/draw-the-triangle-2
+-- =============================================
+
+declare @p int=20;
+
+with temp as 
+(
+    select cast('*' as nvarchar(50)) as star, 1 as num
+    union all
+    select cast(star+' *' as nvarchar(50)) as star, num+1 as num
+    from temp
+    where num<@p
+)
+select star as pattern
+from temp;
